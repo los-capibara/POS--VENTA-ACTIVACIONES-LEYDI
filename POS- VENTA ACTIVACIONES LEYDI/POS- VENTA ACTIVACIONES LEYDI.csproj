@@ -83,5 +83,12 @@
   <ItemGroup>
     <None Include="Resources\Mobile Retail Store Logo - Electric Blue and Lime Green.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CAPADATOS\" />
+    <Folder Include="CAPAENTIDADES\" />
+    <Folder Include="CAPANEGOCIO\" />
+    <Folder Include="CAPAPRESENTACION\" />
+    <Folder Include="RECURSOS\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
