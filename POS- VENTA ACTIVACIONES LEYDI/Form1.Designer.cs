@@ -1,6 +1,6 @@
 ﻿namespace POS__VENTA_ACTIVACIONES_LEYDI
 {
-    partial class Frmprincipal
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frmprincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aRCHIVOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nUEVAVENTAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -124,7 +124,7 @@
             this.aYUDAToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1207, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1207, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -137,7 +137,7 @@
             this.cERRARSESIONToolStripMenuItem,
             this.sALIRToolStripMenuItem});
             this.aRCHIVOToolStripMenuItem.Name = "aRCHIVOToolStripMenuItem";
-            this.aRCHIVOToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
+            this.aRCHIVOToolStripMenuItem.Size = new System.Drawing.Size(86, 26);
             this.aRCHIVOToolStripMenuItem.Text = "ARCHIVO";
             // 
             // nUEVAVENTAToolStripMenuItem
@@ -178,7 +178,7 @@
             this.dEVOLUCIONESToolStripMenuItem,
             this.cOTIZACIONESToolStripMenuItem});
             this.vENTASToolStripMenuItem.Name = "vENTASToolStripMenuItem";
-            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
+            this.vENTASToolStripMenuItem.Size = new System.Drawing.Size(76, 26);
             this.vENTASToolStripMenuItem.Text = "VENTAS";
             // 
             // hISTORIALDEVENTASToolStripMenuItem
@@ -214,7 +214,7 @@
             this.cEULARESNUEVOSUSADOSToolStripMenuItem,
             this.aCCESORIOSToolStripMenuItem});
             this.iNVENTARIOToolStripMenuItem.Name = "iNVENTARIOToolStripMenuItem";
-            this.iNVENTARIOToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
+            this.iNVENTARIOToolStripMenuItem.Size = new System.Drawing.Size(107, 26);
             this.iNVENTARIOToolStripMenuItem.Text = "INVENTARIO";
             // 
             // vERINVENTARIOToolStripMenuItem
@@ -254,7 +254,7 @@
             this.nUEVOCLIENTEToolStripMenuItem,
             this.hISTORIALDECOMPRASToolStripMenuItem});
             this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
-            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
+            this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(86, 26);
             this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
             // 
             // lISTADECLIENTESToolStripMenuItem
@@ -282,7 +282,7 @@
             this.oRDENESPEDIENTESCOMPLETADASToolStripMenuItem,
             this.eNTREGASToolStripMenuItem});
             this.rEPARACIONESToolStripMenuItem.Name = "rEPARACIONESToolStripMenuItem";
-            this.rEPARACIONESToolStripMenuItem.Size = new System.Drawing.Size(127, 24);
+            this.rEPARACIONESToolStripMenuItem.Size = new System.Drawing.Size(127, 26);
             this.rEPARACIONESToolStripMenuItem.Text = "REPARACIONES";
             // 
             // nUEVAORDENToolStripMenuItem
@@ -310,7 +310,7 @@
             this.hISTORIALToolStripMenuItem,
             this.pLANESDISPONIBLESToolStripMenuItem});
             this.aCTIVACIONESToolStripMenuItem.Name = "aCTIVACIONESToolStripMenuItem";
-            this.aCTIVACIONESToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
+            this.aCTIVACIONESToolStripMenuItem.Size = new System.Drawing.Size(123, 26);
             this.aCTIVACIONESToolStripMenuItem.Text = "ACTIVACIONES";
             // 
             // nUEVAACTIVACIONToolStripMenuItem
@@ -340,7 +340,7 @@
             this.rEPARACIONESToolStripMenuItem1,
             this.cORTEDECAJAToolStripMenuItem});
             this.rEPORTESToolStripMenuItem.Name = "rEPORTESToolStripMenuItem";
-            this.rEPORTESToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
+            this.rEPORTESToolStripMenuItem.Size = new System.Drawing.Size(91, 26);
             this.rEPORTESToolStripMenuItem.Text = "REPORTES";
             // 
             // vENTASToolStripMenuItem1
@@ -381,7 +381,7 @@
             this.cATALOGODEPRECIOSToolStripMenuItem,
             this.cOTIZADORToolStripMenuItem});
             this.hERRAMIENTASToolStripMenuItem.Name = "hERRAMIENTASToolStripMenuItem";
-            this.hERRAMIENTASToolStripMenuItem.Size = new System.Drawing.Size(131, 24);
+            this.hERRAMIENTASToolStripMenuItem.Size = new System.Drawing.Size(131, 26);
             this.hERRAMIENTASToolStripMenuItem.Text = "HERRAMIENTAS";
             // 
             // cALCULADORAToolStripMenuItem
@@ -415,7 +415,7 @@
             this.aTAJOSDETECLADOToolStripMenuItem,
             this.aCERCADEToolStripMenuItem});
             this.aYUDAToolStripMenuItem.Name = "aYUDAToolStripMenuItem";
-            this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(71, 26);
             this.aYUDAToolStripMenuItem.Text = "AYUDA";
             // 
             // mANUALDEUSUARIOToolStripMenuItem
@@ -442,7 +442,7 @@
             this.panelHeader.Controls.Add(this.pictureBox1);
             this.panelHeader.Controls.Add(this.label1);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(0, 28);
+            this.panelHeader.Location = new System.Drawing.Point(0, 30);
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1207, 105);
             this.panelHeader.TabIndex = 1;
@@ -478,7 +478,7 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 133);
+            this.panel1.Location = new System.Drawing.Point(0, 135);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1207, 281);
             this.panel1.TabIndex = 2;
@@ -609,9 +609,9 @@
             this.panelContenedor.Controls.Add(this.statusStrip);
             this.panelContenedor.Controls.Add(this.lblBienvenida);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(0, 414);
+            this.panelContenedor.Location = new System.Drawing.Point(0, 416);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1207, 182);
+            this.panelContenedor.Size = new System.Drawing.Size(1207, 180);
             this.panelContenedor.TabIndex = 3;
             // 
             // statusStrip
@@ -622,7 +622,7 @@
             this.lblFecha,
             this.LBLVERSION,
             this.LBL});
-            this.statusStrip.Location = new System.Drawing.Point(0, 156);
+            this.statusStrip.Location = new System.Drawing.Point(0, 154);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(1207, 26);
             this.statusStrip.TabIndex = 1;
@@ -670,7 +670,7 @@
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblBienvenida.Click += new System.EventHandler(this.lblBienvenida_Click);
             // 
-            // Frmprincipal
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -683,8 +683,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "Frmprincipal";
+            this.Name = "FrmPrincipal";
             this.Text = "POS-VENTA ACTIVACIONES LEYDI";
+            this.Load += new System.EventHandler(this.Frmprincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panelHeader.ResumeLayout(false);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace POS__VENTA_ACTIVACIONES_LEYDI
 {
-    public partial class Frmprincipal : Form
+    public partial class FrmPrincipal : Form
     {
-        public Frmprincipal()
+        public FrmPrincipal()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         }
 
         private void lblBienvenida_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frmprincipal_Load(object sender, EventArgs e)
         {
 
         }
