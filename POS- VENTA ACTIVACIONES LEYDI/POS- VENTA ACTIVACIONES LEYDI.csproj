@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAPANEGOCIO\FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPANEGOCIO\FrmProducto.Designer.cs">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CAPANEGOCIO\FrmProducto.resx">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,7 +95,6 @@
   <ItemGroup>
     <Folder Include="CAPADATOS\" />
     <Folder Include="CAPAENTIDADES\" />
-    <Folder Include="CAPANEGOCIO\" />
     <Folder Include="CAPAPRESENTACION\" />
     <Folder Include="RECURSOS\" />
   </ItemGroup>
