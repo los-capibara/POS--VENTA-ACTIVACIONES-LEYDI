@@ -46,11 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAPANEGOCIO\FrmProducto.cs">
+    <Compile Include="CAPAPRESENTACION\FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAPANEGOCIO\FrmProducto.Designer.cs">
+    <Compile Include="CAPAPRESENTACION\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmProducto.Designer.cs">
       <DependentUpon>FrmProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmReparaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmReparaciones.Designer.cs">
+      <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -60,8 +84,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CAPANEGOCIO\FrmProducto.resx">
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmInventario.resx">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmReparaciones.resx">
+      <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -95,7 +131,7 @@
   <ItemGroup>
     <Folder Include="CAPADATOS\" />
     <Folder Include="CAPAENTIDADES\" />
-    <Folder Include="CAPAPRESENTACION\" />
+    <Folder Include="CAPANEGOCIO\" />
     <Folder Include="RECURSOS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
