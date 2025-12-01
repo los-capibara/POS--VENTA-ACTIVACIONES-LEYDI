@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAPADATOS\Conexion.cs" />
+    <Compile Include="CAPADATOS\ProductoDAL.cs" />
     <Compile Include="CAPAENTIDADES\Clientes.cs" />
     <Compile Include="CAPAENTIDADES\Producto.cs" />
+    <Compile Include="CAPANEGOCIO\ProductoBLL.cs" />
     <Compile Include="CAPAPRESENTACION\FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,8 +134,6 @@
     <None Include="Resources\Mobile Retail Store Logo - Electric Blue and Lime Green.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CAPADATOS\" />
-    <Folder Include="CAPANEGOCIO\" />
     <Folder Include="RECURSOS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO;
+using POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION;
+using System;
 using System.Windows.Forms;
 
 namespace POS__VENTA_ACTIVACIONES_LEYDI
@@ -13,7 +15,8 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPrincipal());
+            //Application.Run(new FrmPrincipal());
+            Application.Run(new FrmProducto());
         }
     }
 }

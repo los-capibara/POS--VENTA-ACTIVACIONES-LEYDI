@@ -44,42 +44,42 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         //VENTAS
         private void vENTASToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmVentas().ShowDialog();
+           // new FrmVentas().ShowDialog();
         }
         //CLIENTES
         private void cLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmClientes().ShowDialog();
+            //new FrmClientes().ShowDialog();
         }
         //REPARACIONES
         private void rEPARACIONESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmReparaciones().ShowDialog();
+            //new FrmReparaciones().ShowDialog();
         }
         //PRODUCTOS
         private void pRODUCTOSToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmProductos().ShowDialog();
+            //new FrmProductos().ShowDialog();
         }
         //ACTIVACIONES
         private void aCTIVACIONESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmInventario().ShowDialog();
+            //new FrmInventario().ShowDialog();
         }
         //REPORTES
         private void rEPORTESToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmInventario().ShowDialog();
+         //   new FrmInventario().ShowDialog();
         }
         //HERRAMIENTAS
         private void hERRAMIENTASToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmHeeramientas().ShowDialog();
+           // new FrmHeeramientas().ShowDialog();
         }
         //AYUDA
         private void aYUDAToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmAyuda().ShowDialog();
+        //    new FrmAyuda().ShowDialog();
         }
         //Salir
         private void sALIRToolStripMenuItem1_Click(object sender, EventArgs e)
