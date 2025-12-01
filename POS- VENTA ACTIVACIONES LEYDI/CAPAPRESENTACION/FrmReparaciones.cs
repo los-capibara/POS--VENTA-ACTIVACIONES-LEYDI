@@ -16,5 +16,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         {
             InitializeComponent();
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

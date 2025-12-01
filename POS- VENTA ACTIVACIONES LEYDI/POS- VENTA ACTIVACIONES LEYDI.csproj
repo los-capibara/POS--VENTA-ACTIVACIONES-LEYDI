@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAPAENTIDADES\Clientes.cs" />
+    <Compile Include="CAPAENTIDADES\Producto.cs" />
     <Compile Include="CAPAPRESENTACION\FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,7 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CAPADATOS\" />
-    <Folder Include="CAPAENTIDADES\" />
     <Folder Include="CAPANEGOCIO\" />
     <Folder Include="RECURSOS\" />
   </ItemGroup>
