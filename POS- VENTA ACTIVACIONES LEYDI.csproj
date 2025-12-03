@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75B0A09F-9D2B-427F-A5BD-BCFC5C31AACD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>POS__VENTA_ACTIVACIONES_LEYDI</RootNamespace>
+    <AssemblyName>POS- VENTA ACTIVACIONES LEYDI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAPADATOS\ClientesDAL.cs" />
+    <Compile Include="CAPADATOS\Conexion.cs" />
+    <Compile Include="CAPADATOS\ProductoDAL.cs" />
+    <Compile Include="CAPADATOS\VentaDAL.cs" />
+    <Compile Include="CAPAENTIDADES\Cliente2.cs" />
+    <Compile Include="CAPAENTIDADES\Clientes.cs" />
+    <Compile Include="CAPAENTIDADES\Producto.cs" />
+    <Compile Include="CAPANEGOCIO\ClientesBLL.cs" />
+    <Compile Include="CAPANEGOCIO\CtegoriaBLL.cs" />
+    <Compile Include="CAPANEGOCIO\ProductoBLL.cs" />
+    <Compile Include="CAPAPRESENTACION\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmInventario.Designer.cs">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmProducto.Designer.cs">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmReparaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmReparaciones.Designer.cs">
+      <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmInventario.resx">
+      <DependentUpon>FrmInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmProducto.resx">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmReparaciones.resx">
+      <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile Retail Store Logo - Electric Blue and Lime Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RECURSOS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdapadorLightingAjack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdaptadorCaUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnilloDeSoporte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosGamingRGB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosIn-EarBluethoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosTWC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audionos con cable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BateriaExternaSolar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BocinaBluetoothPortatil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableCaCuatroPuertos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableCaHDMI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableLightning2m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableMicroUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableOrganizador5pcs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaleLightnin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargador20W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargador33W-Turbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CargadorAuto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CargadorAutoDualUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuboDeCargaDobleUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuboInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DaptadorDeTarjetaSIM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstractorDeBandejaSIM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstucheImpermeable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FndaSamsungS23Ultra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Funda SamsungA54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaDeBrazaleteDeportivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaHuaweiG9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaImpermeableUniversal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaIphone13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaiPhone14pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaMotorolag73.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundaRedmi12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GamepadBluetooh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HidrogelCurvo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KitDeLimpiadorDePantalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LamparaLedUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LentesParaCelular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuzLedParaSelfieRing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaMicroSD32GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaMicroSD128GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaSD64GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicaDeVidrioTemplado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouseInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PañoMicrofibra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Popsocket.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerBank10000mAh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerBank20000mAh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProtectoresDeCamara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelfieStickBluethoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeAutoMagnetico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeAutoVntosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeEscritorioAjustable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StylusParaTablet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TecladoInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TripodeParaTelefono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VntiladorCelular.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
