@@ -46,11 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAPADATOS\CategoriaDAL.cs" />
     <Compile Include="CAPADATOS\Conexion.cs" />
     <Compile Include="CAPADATOS\ProductoDAL.cs" />
+    <Compile Include="CAPAENTIDADES\Categoria.cs" />
     <Compile Include="CAPAENTIDADES\Cliente2.cs" />
     <Compile Include="CAPAENTIDADES\Clientes.cs" />
     <Compile Include="CAPAENTIDADES\Producto.cs" />
+    <Compile Include="CAPAENTIDADES\Validaciones.cs" />
     <Compile Include="CAPANEGOCIO\ProductoBLL.cs" />
     <Compile Include="CAPAPRESENTACION\FrmClientes.cs">
       <SubType>Form</SubType>

@@ -7,18 +7,17 @@ using System.Threading.Tasks;
 
 namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
 {
-    public class Conexion
+    public static class Conexion
     {
         // REEMPLAZAR CON LOS DATOS DE LA BASE DE DATOS
-        private static string CadenaConexion =
+        public static string Cadena { get; set; } =
            @"Data Source = ALEXIS\SQLEXPRESS;
                                       Initial Catalog = POSLeydi;
                                      Integrated Security = True;";
 
-
         public static SqlConnection AbrirConexion()
         {
-            SqlConnection cn = new SqlConnection(CadenaConexion);
+            SqlConnection cn = new SqlConnection(Cadena);
             try
             {
                 cn.Open();
@@ -30,5 +29,5 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
                 return null;
             }
         }
-        }
+    }
 }
