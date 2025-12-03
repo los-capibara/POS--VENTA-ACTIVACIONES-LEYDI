@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CAPADATOS\Conexion.cs" />
     <Compile Include="CAPADATOS\ProductoDAL.cs" />
+    <Compile Include="CAPAENTIDADES\Cliente2.cs" />
     <Compile Include="CAPAENTIDADES\Clientes.cs" />
     <Compile Include="CAPAENTIDADES\Producto.cs" />
     <Compile Include="CAPANEGOCIO\ProductoBLL.cs" />
@@ -135,6 +136,180 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RECURSOS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdapadorLightingAjack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdaptadorCaUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnilloDeSoporte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosGamingRGB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosIn-EarBluethoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudifonosTWC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audionos con cable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BateriaExternaSolar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BocinaBluetoothPortatil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableCaCuatroPuertos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableCaHDMI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableLightning2m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableMicroUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CableOrganizador5pcs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaleLightnin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargador20W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargador33W-Turbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CargadorAuto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CargadorAutoDualUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuboDeCargaDobleUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuboInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DaptadorDeTarjetaSIM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstractorDeBandejaSIM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstucheImpermeable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FndaSamsungS23Ultra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Funda SamsungA54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaDeBrazaleteDeportivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaHuaweiG9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaImpermeableUniversal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaIphone13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaiPhone14pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FundaMotorolag73.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundaRedmi12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GamepadBluetooh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HidrogelCurvo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KitDeLimpiadorDePantalla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LamparaLedUSB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LentesParaCelular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuzLedParaSelfieRing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaMicroSD32GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaMicroSD128GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoriaSD64GB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicaDeVidrioTemplado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MouseInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PañoMicrofibra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Popsocket.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerBank10000mAh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PowerBank20000mAh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProtectoresDeCamara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelfieStickBluethoot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeAutoMagnetico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeAutoVntosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoporteDeEscritorioAjustable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StylusParaTablet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TecladoInalambrico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TripodeParaTelefono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VntiladorCelular.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

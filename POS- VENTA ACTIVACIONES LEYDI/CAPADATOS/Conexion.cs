@@ -11,9 +11,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
     {
         // REEMPLAZAR CON LOS DATOS DE LA BASE DE DATOS
         private static string CadenaConexion =
-            "Data Source=NOMBRE_DE_TU_SERVIDOR;" +
-            "Initial Catalog=NOMBRE_DE_TU_BASE_DE_DATOS;" +
-            "Integrated Security=True;";
+           @"Data Source = ALEXIS\SQLEXPRESS;
+                                      Initial Catalog = POSLeydi;
+                                     Integrated Security = True;";
+
 
         public static SqlConnection AbrirConexion()
         {

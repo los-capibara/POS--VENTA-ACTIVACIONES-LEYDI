@@ -12,6 +12,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
 {
     public partial class FrmPrincipal : Form
     {
+        private bool isUpdatingPrecioVenta = false;
+        private bool isUpdatingPrecioCompra = false;
+        private bool isUpdatingStock = false;
+
         public FrmPrincipal()
         {
             InitializeComponent();

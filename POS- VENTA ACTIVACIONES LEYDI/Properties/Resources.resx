@@ -121,4 +121,178 @@
   <data name="Mobile Retail Store Logo - Electric Blue and Lime Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mobile Retail Store Logo - Electric Blue and Lime Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AdapadorLightingAjack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdapadorLightingAjack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdaptadorCaUSB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdaptadorCaUSB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnilloDeSoporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AnilloDeSoporte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AudifonosGamingRGB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AudifonosGamingRGB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AudifonosIn-EarBluethoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AudifonosIn-EarBluethoot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AudifonosTWC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AudifonosTWC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audionos con cable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audionos con cable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BateriaExternaSolar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BateriaExternaSolar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BocinaBluetoothPortatil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BocinaBluetoothPortatil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableCaCuatroPuertos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableCaCuatroPuertos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableCaHDMI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableCaHDMI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableLightning2m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableLightning2m.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableMicroUSB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableMicroUSB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CableOrganizador5pcs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CableOrganizador5pcs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaleLightnin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaleLightnin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cargador20W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cargador20W.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cargador33W-Turbo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cargador33W-Turbo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CargadorAuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CargadorAuto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CargadorAutoDualUSB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CargadorAutoDualUSB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CuboDeCargaDobleUSB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CuboDeCargaDobleUSB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CuboInalambrico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CuboInalambrico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaptadorDeTarjetaSIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DaptadorDeTarjetaSIM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EstractorDeBandejaSIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EstractorDeBandejaSIM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EstucheImpermeable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EstucheImpermeable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FndaSamsungS23Ultra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FndaSamsungS23Ultra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Funda SamsungA54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Funda SamsungA54.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaDeBrazaleteDeportivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaDeBrazaleteDeportivo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaHuaweiG9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaHuaweiG9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaImpermeableUniversal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaImpermeableUniversal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaIphone13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaIphone13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaiPhone14pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaiPhone14pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FundaMotorolag73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FundaMotorolag73.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundaRedmi12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundaRedmi12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GamepadBluetooh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GamepadBluetooh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HidrogelCurvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HidrogelCurvo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KitDeLimpiadorDePantalla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KitDeLimpiadorDePantalla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LamparaLedUSB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LamparaLedUSB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LentesParaCelular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LentesParaCelular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LuzLedParaSelfieRing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LuzLedParaSelfieRing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemoriaMicroSD32GB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemoriaMicroSD32GB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemoriaMicroSD128GB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemoriaMicroSD128GB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MemoriaSD64GB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MemoriaSD64GB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MicaDeVidrioTemplado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MicaDeVidrioTemplado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MouseInalambrico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MouseInalambrico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PañoMicrofibra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PañoMicrofibra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Popsocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Popsocket.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PowerBank10000mAh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PowerBank10000mAh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PowerBank20000mAh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PowerBank20000mAh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProtectoresDeCamara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProtectoresDeCamara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelfieStickBluethoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelfieStickBluethoot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoporteDeAutoMagnetico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoporteDeAutoMagnetico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoporteDeAutoVntosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoporteDeAutoVntosa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SoporteDeEscritorioAjustable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SoporteDeEscritorioAjustable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StylusParaTablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StylusParaTablet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TecladoInalambrico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TecladoInalambrico.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TripodeParaTelefono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TripodeParaTelefono.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VntiladorCelular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VntiladorCelular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
