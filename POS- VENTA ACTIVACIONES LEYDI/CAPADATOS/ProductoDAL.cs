@@ -176,5 +176,14 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
                 }
             }
         }
+
+        // Solución para CS0117: agregar el método ObtenerStock
+        public static int ObtenerStock(int idProducto)
+        {
+            // Aquí deberías implementar la lógica real para obtener el stock desde la base de datos.
+            // Por ahora, se retorna un valor de ejemplo.
+            // Ejemplo: return productos.FirstOrDefault(p => p.Id == idProducto)?.Stock ?? 0;
+            return 0;
+        }
     }
 }
