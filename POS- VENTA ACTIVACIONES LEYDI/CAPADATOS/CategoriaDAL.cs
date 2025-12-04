@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS__VENTA_ACTIVACIONES_LEYDI.CAPAENTIDADES;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -58,9 +59,9 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
                 string sql = @"UPDATE Categoria SET
-                   Nombre=@nombre,
+                   NombreCategoria=@nombre,
                    Descripcion=@descripcion
-                   WHERE Id=@id";
+                   WHERE CategoriaId=@id";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
@@ -83,7 +84,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
         {
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
-                string sql = "DELETE FROM Categoria WHERE Id=@id";
+                string sql = "DELETE FROM Categoria WHERE CategoriaId=@id";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
@@ -101,9 +102,9 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
 
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
-                string sql = @"SELECT Id, Nombre, Descripcion
+                string sql = @"SELECT Id, NombreCategoria, Descripcion
                                FROM Categoria
-                               WHERE Nombre LIKE @filtro 
+                               WHERE NombreCategoria LIKE @filtro 
                                   OR Descripcion LIKE @filtro";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
@@ -122,7 +123,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
         {
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
-                string sql = "SELECT COUNT(*) FROM Categoria WHERE Nombre = @nombre";
+                string sql = "SELECT COUNT(*) FROM Categoria WHERE NombreCategoria = @nombre";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
@@ -139,7 +140,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
             {
                 string sql = @"SELECT COUNT(*) 
                                FROM Categoria 
-                               WHERE Nombre = @nombre AND Id <> @id";
+                               WHERE NombreCategoria = @nombre AND Id <> @id";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
@@ -157,7 +158,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
             {
                 string sql = @"SELECT COUNT(*) 
                                FROM Producto 
-                               WHERE Id_Categoria = @idCategoria";
+                               WHERE CategoriaId = @idCategoria";
 
                 using (SqlCommand cmd = new SqlCommand(sql, cn))
                 {
@@ -173,18 +174,3 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   

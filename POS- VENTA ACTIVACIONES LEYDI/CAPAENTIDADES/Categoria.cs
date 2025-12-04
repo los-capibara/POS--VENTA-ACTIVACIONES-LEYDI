@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAENTIDADES
 {
-    internal class Categoria
+    public class Categoria
     {
         public int Id { get; set; }     // PK autoincremental
         public string Nombre { get; set; }        // Nombre de la categoría
