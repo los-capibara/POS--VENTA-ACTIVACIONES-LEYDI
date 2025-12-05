@@ -15,8 +15,8 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FrmPrincipal());
-            Application.Run(new FrmProducto());
+            Application.Run(new FrmLogin());
+            //Application.Run(new FrmProducto());
         }
     }
 }

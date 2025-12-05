@@ -11,7 +11,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
     public class UsuarioDAL
     {
         //Metodo que valida nombre de usuario, clave y estado para logearnos
-        public static Usuarios Login(string nombreUsuario, string claveHash)
+        public static Usuario Login(string nombreUsuario, string claveHash)
         {
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
@@ -26,7 +26,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
                     {
                         if (dr.Read())
                                 {
-                            return new Usuarios
+                            return new Usuario
                             {
                                 IdUsuario = Convert.ToInt32(dr["IdUsuario"]),
                                 NombreUsuario = dr["NombreUsuario"].ToString(),
@@ -41,9 +41,9 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
         }
 
         // Listar todos los usuarios
-        public static List<Usuarios> Listar()
+        public static List<Usuario> Listar()
         {
-            var lista = new List<Usuarios>();
+            var lista = new List<Usuario>();
             using (SqlConnection cn = new SqlConnection(Conexion.Cadena))
             {
                 cn.Open();
@@ -52,7 +52,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
                 {
                     while (dr.Read())
                     {
-                        lista.Add(new Usuarios
+                        lista.Add(new Usuario
                         {
                             IdUsuario = Convert.ToInt32(dr["IdUsuario"]),
                             NombreUsuario = dr["NombreUsuario"].ToString(),

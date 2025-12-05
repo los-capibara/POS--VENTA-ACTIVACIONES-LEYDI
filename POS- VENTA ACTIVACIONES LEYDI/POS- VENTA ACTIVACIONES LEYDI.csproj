@@ -73,7 +73,7 @@
     <Compile Include="CAPAENTIDADES\Seguridad.cs" />
     <Compile Include="CAPAENTIDADES\SesionActual.cs" />
     <Compile Include="CAPAENTIDADES\TipoPago.cs" />
-    <Compile Include="CAPAENTIDADES\Usuarios.cs" />
+    <Compile Include="CAPAENTIDADES\Usuario.cs" />
     <Compile Include="CAPAENTIDADES\Validaciones.cs" />
     <Compile Include="CAPAENTIDADES\Venta.cs" />
     <Compile Include="CAPANEGOCIO\CategoriaBLL.cs" />
@@ -81,6 +81,12 @@
     <Compile Include="CAPANEGOCIO\ProductoBLL.cs" />
     <Compile Include="CAPANEGOCIO\UsuarioBLL.cs" />
     <Compile Include="CAPANEGOCIO\VentaBLL.cs" />
+    <Compile Include="CAPAPRESENTACION\FrmCambiarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmCambiarClave.Designer.cs">
+      <DependentUpon>FrmCambiarClave.cs</DependentUpon>
+    </Compile>
     <Compile Include="CAPAPRESENTACION\FrmCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     <Compile Include="CAPAPRESENTACION\FrmInventario.Designer.cs">
       <DependentUpon>FrmInventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="CAPAPRESENTACION\FrmProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +134,12 @@
     </Compile>
     <Compile Include="CAPAPRESENTACION\FrmReparaciones.Designer.cs">
       <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAPAPRESENTACION\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="CAPAPRESENTACION\FrmVentas.cs">
       <SubType>Form</SubType>
@@ -140,6 +158,9 @@
     <Compile Include="REPORTE\ReporteVentaPDF.cs" />
     <Compile Include="REPORTE\ReporteVentasDocumentos.cs" />
     <Compile Include="REPORTE\ReporteVentasModel.cs" />
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmCambiarClave.resx">
+      <DependentUpon>FrmCambiarClave.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmCategoria.resx">
       <DependentUpon>FrmCategoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,11 +176,17 @@
     <EmbeddedResource Include="CAPAPRESENTACION\FrmInventario.resx">
       <DependentUpon>FrmInventario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmReparaciones.resx">
       <DependentUpon>FrmReparaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAPAPRESENTACION\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmVentas.resx">
       <DependentUpon>FrmVentas.cs</DependentUpon>
@@ -370,6 +397,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\VntiladorCelular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\QuestPDF.2025.7.4\build\net4\QuestPDF.targets" Condition="Exists('..\packages\QuestPDF.2025.7.4\build\net4\QuestPDF.targets')" />

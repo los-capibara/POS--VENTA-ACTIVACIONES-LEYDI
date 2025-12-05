@@ -41,6 +41,11 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
         {
             return dal.Buscar(nombre);
         }
+
+        internal void Guardar(Categoria c)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
     

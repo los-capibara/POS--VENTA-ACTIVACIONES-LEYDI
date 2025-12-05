@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAENTIDADES
 {
-    public class Usuarios
+    public class Usuario
     {
         public int IdUsuario { get; set; }
         public string NombreUsuario { get; set; }

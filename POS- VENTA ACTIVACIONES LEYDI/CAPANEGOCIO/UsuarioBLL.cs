@@ -10,7 +10,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
 {
     public class UsuarioBLL
     {
-        public static Usuarios Login(string usuario, string clave)
+        public static Usuario Login(string usuario, string clave)
         {
             if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(clave))
                 throw new ArgumentException("Debe ingresar usuario y contraseña.");
@@ -19,7 +19,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             return UsuarioDAL.Login(usuario, hash);
         }
 
-        public static List<Usuarios> Listar()
+        public static List<Usuario> Listar()
         {
             return UsuarioDAL.Listar();
         }
