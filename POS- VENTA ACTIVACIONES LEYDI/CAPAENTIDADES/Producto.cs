@@ -17,5 +17,6 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAENTIDADES
         public string Categoria { get; set; }
         public string ProveedorId { get; set; } = string.Empty;
         public decimal PrecioVenta { get; set; }
+       public int Stock { get; set; }
     }
 }

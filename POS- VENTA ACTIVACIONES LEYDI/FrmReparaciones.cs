@@ -21,5 +21,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         {
 
         }
+
+        private void FrmReparaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

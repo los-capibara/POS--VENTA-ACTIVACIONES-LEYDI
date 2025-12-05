@@ -54,5 +54,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
             frm.ShowDialog();
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

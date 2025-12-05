@@ -26,5 +26,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         {
 
         }
+
+        private void FrmInventario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

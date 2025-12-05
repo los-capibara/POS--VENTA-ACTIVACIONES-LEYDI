@@ -10,6 +10,23 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
 {
     public class VentaBLL
     {
+     // private VentaDALcs dalVenta = new VentaDALcs(); 
+
+        // Tu método ValidarVenta estático ya existe aquí
+
+        public (bool Exito, string Mensaje) RegistrarVenta(Venta venta, List<DetalleVenta> detalles)
+        {
+            // 1. Ejecutar Validación (incluye verificación de stock)
+            RespuestaOperacion validacion = ValidarVenta(venta, detalles);
+
+            if (!validacion.Exito)
+            {
+                return (false, validacion.Mensaje);
+            }
+
+            // 2. Llamar al DAL para la transacción (INSERTAR VENTA, DETALLES y DESCONTAR STOCK)
+            return VentaDALcs.RegistrarVentaTransaccional(venta, detalles);
+        }
         public static RespuestaOperacion ValidarVenta(Venta venta, List<DetalleVenta> detalles)
         {
             // 1) Validar existencia del objeto Venta

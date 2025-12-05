@@ -11,6 +11,35 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
 {
     public class ProductoDAL
     {
+        public Producto BuscarPorId(int idProducto) // <- Coincidencia de nombre
+        {
+            Producto producto = null;
+            string sql = "SELECT ProductoID, NombreProducto, PrecioVenta, Stock FROM Productos WHERE ProductoID = @Id AND Activo = 1";
+
+            using (SqlConnection con = new SqlConnection(Conexion.Cadena))
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.Parameters.AddWithValue("@Id", idProducto);
+                    con.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            producto = new Producto
+                            {
+                                // Asegúrate de que estás usando ProductoID aquí también
+                                ID = reader.GetInt32(0),
+                                Nombre = reader.GetString(1),
+                                PrecioVenta = reader.GetDecimal(2),
+                                Stock = reader.GetInt32(3)
+                            };
+                        }
+                    }
+                }
+            }
+            return producto;
+        }
         // -------------------------------------------------------------
         // 1. LISTAR PRODUCTOS
         // -------------------------------------------------------------

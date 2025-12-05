@@ -10,15 +10,15 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPADATOS
     public static class Conexion
     {
 
-        public static string Cadena { get; set; } =
+       /* public static string Cadena { get; set; } =
            @"Data Source = ALEXIS\SQLEXPRESS;
                                       Initial Catalog = POSLeydi;
-                                     Integrated Security = True;";
+                                     Integrated Security = True;";*/
 
-       /*public static string Cadena { get; set; } =
+       public static string Cadena { get; set; } =
    @"Data Source = DESKTOP-I5KBNK0\SQLEXPRESS;
                                       Initial Catalog = POSLeydi;
-                                     Integrated Security = True;";*/
+                                     Integrated Security = True;";
 
         public static SqlConnection AbrirConexion()
         {

@@ -10,6 +10,13 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
 {
     public class ProductoBLL
     {
+        private ProductoDAL dal = new ProductoDAL();
+
+        // Asegúrate de que esta definición exista y sea pública.
+        public Producto BuscarPorId(int id)
+        {
+            return dal.BuscarPorId(id);
+        }
         private ProductoDAL productoDAL = new ProductoDAL();
 
         //  GUARDAR PRODUCTO (Insertar o Actualizar) 

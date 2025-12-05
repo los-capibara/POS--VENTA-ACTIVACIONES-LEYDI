@@ -16,5 +16,10 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         {
             InitializeComponent();
         }
+
+        private void FrmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

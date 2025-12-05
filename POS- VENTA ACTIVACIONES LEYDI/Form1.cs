@@ -69,7 +69,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         //VENTAS
         private void vENTASToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             new FrmVentas().ShowDialog();
+
         }
         //CLIENTES
         private void cLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
@@ -84,7 +84,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
         //PRODUCTOS
         private void pRODUCTOSToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmProducto().ShowDialog();
+          
         }
         //ACTIVACIONES
         private void aCTIVACIONESToolStripMenuItem_Click(object sender, EventArgs e)
@@ -124,9 +124,45 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void gESTIONDEPRODUCTOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmProducto().ShowDialog();
+        }
+
+        private void gESTIONDECLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             FrmClientes frm = new FrmClientes();
             frm.ShowDialog();
+        }
 
+        private void gESTIONDEVENTASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmVentas().ShowDialog();
+        }
+
+        private void iNVENTARIOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gESTIONDEINVENTARIOToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gESTIONREPORTESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //new FrmGestionReportes().ShowDialog();
+        }
+
+        private void cERRARSESIONToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+            new FrmLogin().ShowDialog();
         }
     }
 }  

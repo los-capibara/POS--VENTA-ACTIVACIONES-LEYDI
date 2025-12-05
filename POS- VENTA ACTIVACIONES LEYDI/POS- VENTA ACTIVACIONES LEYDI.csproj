@@ -111,10 +111,10 @@
     <Compile Include="CAPAPRESENTACION\FrmClientes.Designer.cs">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="CAPAPRESENTACION\FrmInventario.cs">
+    <Compile Include="FrmInventario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAPAPRESENTACION\FrmInventario.Designer.cs">
+    <Compile Include="FrmInventario.Designer.cs">
       <DependentUpon>FrmInventario.cs</DependentUpon>
     </Compile>
     <Compile Include="CAPAPRESENTACION\FrmLogin.cs">
@@ -129,10 +129,10 @@
     <Compile Include="CAPAPRESENTACION\FrmProducto.Designer.cs">
       <DependentUpon>FrmProducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="CAPAPRESENTACION\FrmReparaciones.cs">
+    <Compile Include="FrmReparaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAPAPRESENTACION\FrmReparaciones.Designer.cs">
+    <Compile Include="FrmReparaciones.Designer.cs">
       <DependentUpon>FrmReparaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="CAPAPRESENTACION\FrmUsuarios.cs">
@@ -173,7 +173,7 @@
     <EmbeddedResource Include="CAPAPRESENTACION\FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CAPAPRESENTACION\FrmInventario.resx">
+    <EmbeddedResource Include="FrmInventario.resx">
       <DependentUpon>FrmInventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmLogin.resx">
@@ -182,7 +182,7 @@
     <EmbeddedResource Include="CAPAPRESENTACION\FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CAPAPRESENTACION\FrmReparaciones.resx">
+    <EmbeddedResource Include="FrmReparaciones.resx">
       <DependentUpon>FrmReparaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAPAPRESENTACION\FrmUsuarios.resx">

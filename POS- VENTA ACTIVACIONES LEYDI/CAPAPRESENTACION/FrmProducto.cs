@@ -325,7 +325,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
 
         private void FrmProducto_Load(object sender, EventArgs e)
         {
-
+            CargarProductos();
         }
 
         private void txtDescripcion_TextChanged(object sender, EventArgs e)

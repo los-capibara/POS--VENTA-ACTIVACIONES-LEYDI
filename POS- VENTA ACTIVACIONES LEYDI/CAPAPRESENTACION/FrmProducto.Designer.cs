@@ -59,12 +59,8 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.btnCargarImagen = new System.Windows.Forms.Button();
             this.labelBuscar = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.labelBuscarPor = new System.Windows.Forms.Label();
             this.txtBuscarPor = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.labelCodigo = new System.Windows.Forms.Label();
-            this.labelCategoria1 = new System.Windows.Forms.Label();
-            this.labelNombre1 = new System.Windows.Forms.Label();
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBoxi.SuspendLayout();
@@ -101,7 +97,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.groupBoxi.Controls.Add(this.labelNombre);
             this.groupBoxi.Controls.Add(this.txtCodigoProducto);
             this.groupBoxi.Controls.Add(this.labelCodigoP);
-            this.groupBoxi.Location = new System.Drawing.Point(312, 108);
+            this.groupBoxi.Location = new System.Drawing.Point(58, 69);
             this.groupBoxi.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxi.Name = "groupBoxi";
             this.groupBoxi.Padding = new System.Windows.Forms.Padding(4);
@@ -181,7 +177,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             "DESCONTINUADO"});
             this.cmbEstado.Location = new System.Drawing.Point(726, 283);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(244, 33);
+            this.cmbEstado.Size = new System.Drawing.Size(244, 27);
             this.cmbEstado.TabIndex = 17;
             this.cmbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbEstado_SelectedIndexChanged);
             // 
@@ -191,7 +187,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelEstado.Location = new System.Drawing.Point(581, 286);
             this.labelEstado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEstado.Name = "labelEstado";
-            this.labelEstado.Size = new System.Drawing.Size(82, 25);
+            this.labelEstado.Size = new System.Drawing.Size(66, 20);
             this.labelEstado.TabIndex = 16;
             this.labelEstado.Text = "ESTADO";
             // 
@@ -205,7 +201,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.cmbProveedor.Location = new System.Drawing.Point(778, 229);
             this.cmbProveedor.Margin = new System.Windows.Forms.Padding(4);
             this.cmbProveedor.Name = "cmbProveedor";
-            this.cmbProveedor.Size = new System.Drawing.Size(165, 33);
+            this.cmbProveedor.Size = new System.Drawing.Size(165, 27);
             this.cmbProveedor.TabIndex = 15;
             this.cmbProveedor.SelectedIndexChanged += new System.EventHandler(this.cmbProveedor_SelectedIndexChanged);
             // 
@@ -215,7 +211,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelProveedor.Location = new System.Drawing.Point(578, 233);
             this.labelProveedor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelProveedor.Name = "labelProveedor";
-            this.labelProveedor.Size = new System.Drawing.Size(120, 25);
+            this.labelProveedor.Size = new System.Drawing.Size(97, 20);
             this.labelProveedor.TabIndex = 14;
             this.labelProveedor.Text = "PROVEEDOR";
             // 
@@ -225,7 +221,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelStock.Location = new System.Drawing.Point(569, 175);
             this.labelStock.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelStock.Name = "labelStock";
-            this.labelStock.Size = new System.Drawing.Size(197, 25);
+            this.labelStock.Size = new System.Drawing.Size(162, 20);
             this.labelStock.TabIndex = 13;
             this.labelStock.Text = "CANTIDAD EN STOCK";
             // 
@@ -234,7 +230,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.nudCantidadStock.Location = new System.Drawing.Point(779, 171);
             this.nudCantidadStock.Margin = new System.Windows.Forms.Padding(4);
             this.nudCantidadStock.Name = "nudCantidadStock";
-            this.nudCantidadStock.Size = new System.Drawing.Size(165, 31);
+            this.nudCantidadStock.Size = new System.Drawing.Size(165, 27);
             this.nudCantidadStock.TabIndex = 12;
             this.nudCantidadStock.ValueChanged += new System.EventHandler(this.nudCantidadStock_ValueChanged);
             // 
@@ -243,7 +239,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.nudPrecioVenta.Location = new System.Drawing.Point(779, 102);
             this.nudPrecioVenta.Margin = new System.Windows.Forms.Padding(4);
             this.nudPrecioVenta.Name = "nudPrecioVenta";
-            this.nudPrecioVenta.Size = new System.Drawing.Size(165, 31);
+            this.nudPrecioVenta.Size = new System.Drawing.Size(165, 27);
             this.nudPrecioVenta.TabIndex = 11;
             this.nudPrecioVenta.ValueChanged += new System.EventHandler(this.nudPrecioVenta_ValueChanged);
             // 
@@ -253,7 +249,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelVenta.Location = new System.Drawing.Point(578, 111);
             this.labelVenta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelVenta.Name = "labelVenta";
-            this.labelVenta.Size = new System.Drawing.Size(168, 25);
+            this.labelVenta.Size = new System.Drawing.Size(137, 20);
             this.labelVenta.TabIndex = 10;
             this.labelVenta.Text = "PRECIO DE VENTA";
             // 
@@ -262,7 +258,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.nudPrecioCompra.Location = new System.Drawing.Point(779, 40);
             this.nudPrecioCompra.Margin = new System.Windows.Forms.Padding(4);
             this.nudPrecioCompra.Name = "nudPrecioCompra";
-            this.nudPrecioCompra.Size = new System.Drawing.Size(165, 31);
+            this.nudPrecioCompra.Size = new System.Drawing.Size(165, 27);
             this.nudPrecioCompra.TabIndex = 9;
             this.nudPrecioCompra.ValueChanged += new System.EventHandler(this.nudPrecioCompra_ValueChanged);
             // 
@@ -272,7 +268,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelCompra.Location = new System.Drawing.Point(578, 46);
             this.labelCompra.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCompra.Name = "labelCompra";
-            this.labelCompra.Size = new System.Drawing.Size(187, 25);
+            this.labelCompra.Size = new System.Drawing.Size(152, 20);
             this.labelCompra.TabIndex = 8;
             this.labelCompra.Text = "PRECIO DE COMPRA";
             // 
@@ -292,7 +288,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelDescripcion.Location = new System.Drawing.Point(8, 242);
             this.labelDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDescripcion.Name = "labelDescripcion";
-            this.labelDescripcion.Size = new System.Drawing.Size(130, 25);
+            this.labelDescripcion.Size = new System.Drawing.Size(106, 20);
             this.labelDescripcion.TabIndex = 6;
             this.labelDescripcion.Text = "DESCRIPCION";
             // 
@@ -309,7 +305,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.cmbCategoria.Location = new System.Drawing.Point(135, 171);
             this.cmbCategoria.Margin = new System.Windows.Forms.Padding(4);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(314, 33);
+            this.cmbCategoria.Size = new System.Drawing.Size(314, 27);
             this.cmbCategoria.TabIndex = 5;
             this.cmbCategoria.SelectedIndexChanged += new System.EventHandler(this.cmbCategoria_SelectedIndexChanged);
             // 
@@ -319,7 +315,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelCategoria.Location = new System.Drawing.Point(8, 171);
             this.labelCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCategoria.Name = "labelCategoria";
-            this.labelCategoria.Size = new System.Drawing.Size(114, 25);
+            this.labelCategoria.Size = new System.Drawing.Size(93, 20);
             this.labelCategoria.TabIndex = 4;
             this.labelCategoria.Text = "CATEGORIA";
             // 
@@ -328,7 +324,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.txtNombreProducto.Location = new System.Drawing.Point(248, 102);
             this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(200, 31);
+            this.txtNombreProducto.Size = new System.Drawing.Size(200, 27);
             this.txtNombreProducto.TabIndex = 3;
             // 
             // labelNombre
@@ -337,7 +333,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelNombre.Location = new System.Drawing.Point(8, 111);
             this.labelNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNombre.Name = "labelNombre";
-            this.labelNombre.Size = new System.Drawing.Size(231, 25);
+            this.labelNombre.Size = new System.Drawing.Size(189, 20);
             this.labelNombre.TabIndex = 2;
             this.labelNombre.Text = "NOMBRE DEL PRODUCTO";
             // 
@@ -346,7 +342,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.txtCodigoProducto.Location = new System.Drawing.Point(248, 42);
             this.txtCodigoProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoProducto.Name = "txtCodigoProducto";
-            this.txtCodigoProducto.Size = new System.Drawing.Size(191, 31);
+            this.txtCodigoProducto.Size = new System.Drawing.Size(191, 27);
             this.txtCodigoProducto.TabIndex = 1;
             // 
             // labelCodigoP
@@ -355,13 +351,13 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.labelCodigoP.Location = new System.Drawing.Point(8, 46);
             this.labelCodigoP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCodigoP.Name = "labelCodigoP";
-            this.labelCodigoP.Size = new System.Drawing.Size(223, 25);
+            this.labelCodigoP.Size = new System.Drawing.Size(182, 20);
             this.labelCodigoP.TabIndex = 0;
             this.labelCodigoP.Text = "CODIGO DEL PRODUCTO";
             // 
             // btnCargarImagen
             // 
-            this.btnCargarImagen.Location = new System.Drawing.Point(312, 630);
+            this.btnCargarImagen.Location = new System.Drawing.Point(58, 556);
             this.btnCargarImagen.Name = "btnCargarImagen";
             this.btnCargarImagen.Size = new System.Drawing.Size(186, 34);
             this.btnCargarImagen.TabIndex = 2;
@@ -372,75 +368,39 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             // labelBuscar
             // 
             this.labelBuscar.AutoSize = true;
-            this.labelBuscar.Location = new System.Drawing.Point(374, 470);
+            this.labelBuscar.Location = new System.Drawing.Point(120, 431);
             this.labelBuscar.Name = "labelBuscar";
-            this.labelBuscar.Size = new System.Drawing.Size(88, 25);
+            this.labelBuscar.Size = new System.Drawing.Size(72, 20);
             this.labelBuscar.TabIndex = 23;
             this.labelBuscar.Text = "BUSCAR:";
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(478, 467);
+            this.txtBuscar.Location = new System.Drawing.Point(224, 428);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(479, 31);
+            this.txtBuscar.Size = new System.Drawing.Size(479, 27);
             this.txtBuscar.TabIndex = 24;
-            // 
-            // labelBuscarPor
-            // 
-            this.labelBuscarPor.AutoSize = true;
-            this.labelBuscarPor.Location = new System.Drawing.Point(1217, 473);
-            this.labelBuscarPor.Name = "labelBuscarPor";
-            this.labelBuscarPor.Size = new System.Drawing.Size(135, 25);
-            this.labelBuscarPor.TabIndex = 25;
-            this.labelBuscarPor.Text = "BUSCAR POR :";
             // 
             // txtBuscarPor
             // 
             this.txtBuscarPor.Location = new System.Drawing.Point(1381, 470);
             this.txtBuscarPor.Name = "txtBuscarPor";
-            this.txtBuscarPor.Size = new System.Drawing.Size(122, 31);
+            this.txtBuscarPor.Size = new System.Drawing.Size(122, 27);
             this.txtBuscarPor.TabIndex = 26;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(1005, 504);
+            this.btnBuscar.Location = new System.Drawing.Point(733, 428);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(126, 40);
             this.btnBuscar.TabIndex = 27;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // labelCodigo
-            // 
-            this.labelCodigo.AutoSize = true;
-            this.labelCodigo.Location = new System.Drawing.Point(893, 519);
-            this.labelCodigo.Name = "labelCodigo";
-            this.labelCodigo.Size = new System.Drawing.Size(83, 25);
-            this.labelCodigo.TabIndex = 28;
-            this.labelCodigo.Text = "CODIGO";
-            // 
-            // labelCategoria1
-            // 
-            this.labelCategoria1.AutoSize = true;
-            this.labelCategoria1.Location = new System.Drawing.Point(774, 519);
-            this.labelCategoria1.Name = "labelCategoria1";
-            this.labelCategoria1.Size = new System.Drawing.Size(114, 25);
-            this.labelCategoria1.TabIndex = 29;
-            this.labelCategoria1.Text = "CATEGORIA";
-            // 
-            // labelNombre1
-            // 
-            this.labelNombre1.AutoSize = true;
-            this.labelNombre1.Location = new System.Drawing.Point(659, 519);
-            this.labelNombre1.Name = "labelNombre1";
-            this.labelNombre1.Size = new System.Drawing.Size(91, 25);
-            this.labelNombre1.TabIndex = 30;
-            this.labelNombre1.Text = "NOMBRE";
-            // 
             // dgvProductos
             // 
             this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProductos.Location = new System.Drawing.Point(534, 564);
+            this.dgvProductos.Location = new System.Drawing.Point(270, 474);
             this.dgvProductos.Name = "dgvProductos";
             this.dgvProductos.RowHeadersWidth = 51;
             this.dgvProductos.Size = new System.Drawing.Size(707, 164);
@@ -453,23 +413,19 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(490, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(499, 25);
+            this.label1.Size = new System.Drawing.Size(410, 20);
             this.label1.TabIndex = 32;
             this.label1.Text = "GESTION DE PRODUCTOS -TIENDA ACTIVACIONES LEYDI";
             // 
             // FrmProducto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1588, 822);
+            this.ClientSize = new System.Drawing.Size(1284, 646);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvProductos);
-            this.Controls.Add(this.labelNombre1);
-            this.Controls.Add(this.labelCategoria1);
-            this.Controls.Add(this.labelCodigo);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscarPor);
-            this.Controls.Add(this.labelBuscarPor);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnCargarImagen);
             this.Controls.Add(this.labelBuscar);
@@ -478,6 +434,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProductos";
             this.Load += new System.EventHandler(this.FrmProducto_Load);
             this.groupBoxi.ResumeLayout(false);
@@ -506,16 +463,13 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
         private System.Windows.Forms.Label labelCategoria;
         private System.Windows.Forms.TextBox txtNombreProducto;
         private System.Windows.Forms.Label labelNombre;
-        private System.Windows.Forms.NumericUpDown nudPrecioCompra;
         private System.Windows.Forms.Label labelCompra;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label labelDescripcion;
-        private System.Windows.Forms.NumericUpDown nudPrecioVenta;
         private System.Windows.Forms.Label labelVenta;
         private System.Windows.Forms.ComboBox cmbProveedor;
         private System.Windows.Forms.Label labelProveedor;
         private System.Windows.Forms.Label labelStock;
-        private System.Windows.Forms.NumericUpDown nudCantidadStock;
         private System.Windows.Forms.Label labelEstado;
         private System.Windows.Forms.ComboBox cmbEstado;
         private System.Windows.Forms.Button btnGuardar;
@@ -527,13 +481,12 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPANEGOCIO
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Label labelBuscar;
-        private System.Windows.Forms.Label labelBuscarPor;
         private System.Windows.Forms.TextBox txtBuscarPor;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.Label labelCodigo;
-        private System.Windows.Forms.Label labelCategoria1;
-        private System.Windows.Forms.Label labelNombre1;
         private System.Windows.Forms.DataGridView dgvProductos;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NumericUpDown nudCantidadStock;
+        private System.Windows.Forms.NumericUpDown nudPrecioVenta;
+        private System.Windows.Forms.NumericUpDown nudPrecioCompra;
     }
 }

@@ -21,7 +21,7 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         private void FrmUsuarios_Load(object sender, EventArgs e)
         {
             CargarUsuarios();
-            cmbRol.Items.AddRange(new string[] { "Admin", "Cajero", "Mesero" });
+            cmbRol.Items.AddRange(new string[] { "Admin", "Cajero",});
 
         }
         private void CargarUsuarios()
@@ -113,6 +113,11 @@ namespace POS__VENTA_ACTIVACIONES_LEYDI.CAPAPRESENTACION
         private void btnRefrescar_Click(object sender, EventArgs e)
         {
             CargarUsuarios();
+        }
+
+        private void cmbRol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

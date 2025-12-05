@@ -116,8 +116,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmCategoriaEliminar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCategoriaEliminar";
             this.Load += new System.EventHandler(this.FrmCategoriaEliminar_Load);
             this.ResumeLayout(false);
